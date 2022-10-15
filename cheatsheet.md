@@ -6,11 +6,12 @@
 `git init` 깃 지역 저장소로 지정
 
 ### config
-`git config user.name` 깃허브 username 지정
+`git config user.name` 깃허브 username 지정  
 `git config user.email` 깃허브에 등록한 이메일 계정 지정
 
 ### add
-`git add` 컷밋에 포함 시킬 파일을 등록
+`git add [파일 명]` 컷밋에 포함 시킬 파일을 등록  
+`git add --all` 현재 디렉토리에 add 되지 않은 모든 파일을 add 시킴
 
 ### status
 `git status` 파일 상태 확인. tracked 되고 있는지, 커밋에 등록 되어 있는지 여부 등을 확인할 수 있음
