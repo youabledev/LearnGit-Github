@@ -17,6 +17,7 @@
 `git status` 파일 상태 확인. tracked 되고 있는지, 커밋에 등록 되어 있는지 여부 등을 확인할 수 있음
 
 ### commit
+`git commit` 좀더 자세한 커밋 메시지를 작성할 수 있으며 이를 위한 에디터 화면이 나타남  
 `git commit -m` -m 옵션을 사용하면 커밋의 메시지를 작성할 수 있음
 
 ### log
@@ -29,4 +30,4 @@
 `git push [원격 저장소 이름] [원격 저장소 브랜치 이름]` 원격 저장소 이름이 origin이고, 브랜치가 main이라고 할 때 git push origin main
 
 ### show
-`git show` 최신 commit 정보 화깅ㄴ
+`git show` 최신 commit 정보 확인
