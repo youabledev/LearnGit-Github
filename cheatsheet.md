@@ -33,6 +33,12 @@
 ### push
 `git push [원격 저장소 이름] [원격 저장소 브랜치 이름]` 원격 저장소 이름이 origin이고, 브랜치가 main이라고 할 때 git push origin main
 
+### pull
+`git pull {원격 저장소 식별자} {원격 저장소 브랜치}` 원격 저장소 main 브랜치의 변경 내역을 가지고 옴
+
+### fetch
+`git fetch {원격 저장소 식별자} {원격 저장소 브랜치}` 원격 저장소 변경 내역 가져오기
+
 ### show
 `git show` 최신 commit 정보 확인
 
